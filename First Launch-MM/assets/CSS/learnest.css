@@ -1,0 +1,575 @@
+body{
+  
+  background-color: gray;
+  
+  
+}
+   .container{
+     position: absolute;
+     width: 99%;
+     top: 7%;
+     margin-right: 1px;
+     margin-right: 1px;
+     height: 480px;
+   }
+   .container .content .dot{
+      position: absolute;
+      height: 35px;
+      width: 35px;
+      margin-left: 6%;
+      margin-top: 2%;
+      background-color: rgb(57,119,253);
+      border-radius: 50%;
+      display: inline-block;
+      text-align: left;
+    }
+   
+   .container .content>h3{
+     position: absolute;
+     color: rgb(57, 119, 253);
+     font-size: 22px;
+     font-weight:bold;
+     padding: 20px;
+     margin-top: 1%;
+     margin-left: 8%;
+     text-align: left;
+     font-style: normal;
+   }
+   .container .content .button1{
+    position: absolute;
+    color: white;
+    font-size: 11px;
+    text-align: center;
+    background-color: rgb(57,119,253);
+    height: 40px;
+    width: 91px;
+    border-radius: 5px;
+    margin-left: 87%;
+    margin-top: 3%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-color: rgb(57, 119, 253);
+    
+  }
+   .container .content>h1{
+     position: absolute;
+     color: white;
+     text-align: center;
+     top: 30%;
+     left: 25%;
+     font-size: 41.5px;
+     letter-spacing: 2px;
+   }
+   .container .content>h5{
+     position: absolute;
+     color:rgb(208, 208, 214);
+     margin-left: 36%;
+     font-size: 15px;
+     margin-top: 19.5%;
+     text-align: center;
+    
+   }
+   .container .content .button2{
+     position: absolute;
+     color: white;
+     font-size: 12px;
+     text-align: center;
+     background-color: rgb(57, 119, 253);
+     height: 67px;
+     width: 385px;
+     border-radius: 5px;
+     margin-left: 468px;
+     margin-top: 312px;
+     text-transform: uppercase;
+     letter-spacing: 2px;
+     border-color: rgb(57, 119, 253);
+   }
+   .container>img {
+     position: absolute;
+     vertical-align: middle;
+     height: 100%;
+     width: 117%;
+     left: 1%;
+     right: 1%;
+     
+    }
+
+   .container .content {
+  position: absolute;
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  left: 1%;
+  right: 1%;
+  width: 117%;
+  height: 100%;
+}
+.info{
+  position: absolute;
+  background-color:  rgb(243, 243, 245);
+  left: 2px;
+  right: 2px;
+  width: 99.55%;
+  height: 88%;
+  top: 85%;
+}
+.info>h6{
+ position: absolute;
+ text-transform:uppercase;
+ text-align: left;
+ padding: 40px;
+ font-weight: lighter;
+ margin-left: 130px;
+ margin-top: 70px;
+ color: rgb(56, 55, 55);
+ font-size: 11px;
+
+}
+.info>h5{
+position: absolute;
+text-align: left;
+font-size: 44px;
+ padding: 80px;
+ margin-left: 90px;
+ margin-top: 60px;
+ color: black;
+ letter-spacing: 0.25px;
+}
+.info>p{
+ position: absolute;
+ text-align: left;
+ 
+ padding: 80px;
+ margin-left: 710px;
+ margin-top: 63px;
+ color: black;
+}
+.card{
+  position: absolute;
+  width: 22.81%;
+  height: 50%;
+  background-color: white;
+ top: 147%;
+ margin-left: 14%;
+ box-shadow: 1px 1px 1px 1px rgb(197, 195, 195);
+}
+
+.card .content{
+  position: absolute;
+  text-align: left;
+  padding-top: 40%;
+  padding-left: 12%;
+ 
+}
+.card .content>p1{
+  position: absolute;
+  text-align: left;
+  color: black;
+  font-size: 19px;
+  
+}
+ .card .content>p2{
+  
+  text-align: left;
+  color: gray;
+  font-size: 14px;
+  
+  
+}
+.card1{
+  position: absolute;
+  width: 22.81%;
+  height: 50%;
+  background-color: white;
+  top: 147%;
+  margin-left: 39.6%;
+  box-shadow: 1px 1px 1px 1px rgb(197, 195, 195);
+  
+
+}
+
+.card1 .content{
+  position: absolute;
+ padding-top: 10%;
+ padding-left: 12%;
+  text-align: left;
+ 
+}
+.card1 .content>p1{
+  position: absolute;
+  text-align: left;
+  color: black;
+  font-size: 19px;
+  
+}
+ .card1 .content>p2{
+  
+  text-align: left;
+  color: gray;
+  padding-top: 14px;
+  font-size: 14px;
+  
+}
+.card2{
+  position: absolute;
+  width: 22.81%;
+  height: 50%;
+  background-color: white;
+  top: 147%;
+  margin-left: 65.3%;
+ box-shadow: 1px 1px 1px 1px rgb(197, 195, 195);
+}
+
+.card2 .content{
+  position: absolute;
+  text-align: left;
+ padding-top: 10%;
+ padding-left: 12%;
+
+}
+.card2 .content>p1{
+  position: absolute;
+  text-align: left;
+  color: black;
+  font-size: 19px;
+  
+}
+ .card2 .content>p2{
+  text-align: left;
+  color: gray;
+  padding-top: 15px;
+  font-size: 14px;
+}
+.section{
+  position: absolute;
+  width: 99.55%;
+  height: 46.5%;
+  background-color: white;
+  margin-top: 78.2%;
+  left: 2px;
+  right: 2px;
+}
+.about{
+     position: absolute;
+     left: 2px;
+     right: 2px;
+     width: 99.55%;
+     top: 87%;
+     height: 64%;
+   }
+.about>img {
+  position: absolute;
+     vertical-align: middle;
+     height: 100%;
+     width: 100%;
+     margin-top: 60%;
+     }
+
+   .about .content{
+  position: absolute;
+  margin-top: 60%;
+  background: rgba(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); 
+  color: #f1f1f1;
+  width: 100%;
+  height: 100%;
+  margin-right: 1px;
+  margin-left: 2px;
+   }
+
+   .about .content>p1{
+     position: absolute;
+     text-align: left;
+     margin-top: 8%;
+     margin-left: 15%;
+     font-size: 11px;
+     color: white;
+     text-transform: uppercase;
+     letter-spacing: 1px;
+   }
+
+   .about .content>p2{
+     position: absolute;
+     text-align: left;
+     margin-top: 9%;
+     margin-left: 13.5%;
+     padding: 20px;
+     font-size: 45px;
+     color: white; 
+     font-weight: lighter;
+     letter-spacing: 1px;
+   }
+
+   .about .content>p3{
+     position: absolute;
+     text-align: left;
+     margin-top: 11%;
+     margin-left: 57%;
+     padding: 20px;
+     font-size: 15px;
+     color: white; 
+   }
+   .section1{
+   position: absolute;
+   background-color: rgb(239, 241, 247);
+   margin-top: 105.8%;
+   height: 69%;
+   width: 99.55%;
+   left: 2px;
+   right: 1px;
+   
+   
+   }
+    
+   .section1 .card3{
+      position: absolute;
+      width: 27%;
+      height: 58%;
+      background-color: white;
+      margin-top: 5%;
+      margin-left: 9%;
+      border-radius: 5px;
+    }
+   .section1 .card3>img{
+     position: absolute;
+     width: 100%;
+    height: 100%;
+    padding-left: 55%;
+    align-items: left;
+    border-radius: 5px;
+    
+   }
+   .section1 .card3 .content>p1{
+     position: absolute;
+     text-align: left;
+     margin-top: 5%;
+     margin-left: 10%;
+    padding-top: 40px;
+    font-size: 19px;
+    color: black;
+
+   }
+    .section1 .card3 .content>p2{
+     position: absolute;
+     text-align: left;
+     margin-top: 25%;
+     margin-left: 10%;
+     padding-top: 40px;
+     color: black;
+   }
+
+   .section1 .card4{
+      position: absolute;
+      width: 27%;
+      height: 58%;
+      background-color: white;
+      margin-top: 5%;
+      margin-left: 38%;
+      border-radius: 5px;
+    }
+   .section1 .card4>img{
+     position: absolute;
+     width: 100%;
+    height: 100%;
+    padding-left: 55%;
+    align-items: left;
+    border-radius: 5px;
+    
+   }
+   .section1 .card4 .content>p1{
+     position: absolute;
+     text-align: left;
+     margin-top: 5%;
+     margin-left: 10%;
+    padding-top: 40px;
+    font-size: 19px;
+    color: black;
+
+   }
+    .section1 .card4 .content>p2{
+     position: absolute;
+     text-align: left;
+     margin-top: 25%;
+     margin-left: 10%;
+     padding-top: 40px;
+     color: black;
+   }
+
+   .section1 .card5{
+      position: absolute;
+      width: 27%;
+      height: 58%;
+      background-color: white;
+      margin-top: 5%;
+      margin-left: 67%;
+      border-radius: 5px;
+    }
+   .section1 .card5>img{
+     position: absolute;
+     width: 100%;
+    height: 100%;
+    padding-left: 55%;
+    align-items: left;
+    border-radius: 5px;
+    
+   }
+   .section1 .card5 .content>p1{
+     position: absolute;
+     text-align: left;
+     margin-top: 5%;
+     margin-left: 10%;
+    padding-top: 40px;
+    font-size: 19px;
+    color: black;
+
+   }
+    .section1 .card5 .content>p2{
+     position: absolute;
+     text-align: left;
+     margin-top: 25%;
+     margin-left: 10%;
+     padding-top: 40px;
+     color: black;
+   }
+
+   .f1{
+     position: absolute;
+     background-color: white;
+     height: 75%;
+     width: 99.55%;
+     margin-top: 137.5%;
+     left: 2px;
+     right: 2px;
+   }
+   .f1 .dot{
+   
+      position: absolute;
+      height: 35px;
+      width: 35px;
+      margin-left: 6%;
+      margin-top: 7%;
+      background-color: rgb(57,119,253);
+      border-radius: 50%;
+      display: inline-block;
+      text-align: left;
+    
+   }
+   .f1>p{
+     position: absolute;
+     color: gray;
+     font-size: 12px;
+     padding: 10px;
+     margin-left: 5%;
+     margin-top: 11.5%;
+   }
+   .f1>h4{
+     position: absolute;
+     color: rgb(4, 95, 231);
+     padding: 20px;
+     font-size: 23px;
+     margin-left: 8%;
+     margin-top: 6%;
+   }
+   .f1>h5{
+     position: absolute;
+     color: gray;
+     margin-top: 6%;
+     margin-left: 35%;
+     padding: 20px;
+     font-size: 11px;
+     text-transform: uppercase;
+     letter-spacing: 0.65px;
+   }
+   .f1 .ul1 {
+     position: absolute;
+     color: black;
+     margin-top: 10.8%;
+     margin-left: 35%;
+     padding: 20px;
+     font-size: 11.8px;
+
+   }
+   .f1>h6{
+     position: absolute;
+     color: gray;
+      margin-top: 6%;
+      margin-left: 60%;
+      padding: 20px;
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.65px;
+   }
+   .f1 .ul2 {
+     position: absolute;
+     color: black;
+     margin-top: 10.8%;
+     margin-left: 60%;
+     padding: 20px;
+     font-size: 11.8px;
+   }
+   .f1>p1{
+    position: absolute;
+    color: gray;
+    margin-top: 6%;
+    margin-left: 80%;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 20px;
+    letter-spacing: 0.65px;
+   }
+   
+  .footer {
+  position: absolute;
+  left: 2px;
+  right: 2px;
+  height: 26%;
+  width: 99.55%;
+  top: 432%;
+  bottom: 0%;
+  background-color: rgb(229, 231, 240);
+  color: black;
+  
+   }
+   .footer>p1{
+       position: absolute;
+       text-align: left;
+       font-size: 11px;
+       font-weight:bold;
+       padding: 50px;
+       left: 20px;
+       
+   }
+   .footer>p2{
+       position: absolute;
+     text-align: left;
+     font-weight:bold;
+     font-size: 11px;
+     padding: 50px;
+     left: 130px;
+   }
+   .footer>p3{
+       position: absolute;
+       font-size: 11px;
+       font-weight:bold;
+   text-align: left;
+   padding: 50px;
+   left: 240px;
+   }
+   .footer>p4{
+       position: absolute;
+       font-size: 11px;
+       color: gray;
+       text-align:left;
+       margin-top: 90px;
+    left: 69px;
+   }
+   .footer>p5{
+    position: absolute;
+       font-size: 11px;
+       color: gray;
+       text-align:right;
+       margin-top: 73px;
+       right: 85px;
+      
+   }
